@@ -1,0 +1,25 @@
+body, html{
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+ul {
+    margin: 0;
+    padding: 20px;
+    list-style-type: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 50px
+ }
+
+.welcome {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://static.wixstatic.com/media/8aa27d_dba1a18f49cc4e1da3e863c02dec9eb6~mv2.png");
+    object-fit: cover;
+}
