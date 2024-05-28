@@ -1,25 +1,38 @@
-body, html{
+body, html, main{
     margin: 0;
 }
 
+
 main {
-    margin: 0;
     width: 100vw;
     height: 100vh;
+    font-family: 'Playfair Display'
 }
 ul {
+    position: fixed;
+    width: 100%;
     margin: 0;
     padding: 20px;
     list-style-type: none;
+    font-size: 1.2em;
     color: #ffffff;
+    gap: 75px;
     display: flex;
     justify-content: center;
-    gap: 50px
- }
+}
+
+
 
 .welcome {
     width: 100vw;
-    height: 100vh;
-    background-image: url("https://static.wixstatic.com/media/8aa27d_dba1a18f49cc4e1da3e863c02dec9eb6~mv2.png");
-    object-fit: cover;
+    height: 65vh;
+    background-image: url("https://static.wixstatic.com/media/11062b_32544597562341a3ba3eb71ecd182c39~mv2.jpg/v1/fill/w_1060,h_480,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_32544597562341a3ba3eb71ecd182c39~mv2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.welcome img {
+    position: absolute;
+    left: 30%
+}
+
