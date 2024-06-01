@@ -120,18 +120,22 @@ ul {
 .product-container {
     /* border: 2px solid blue; */
     border-radius: 10px;
-    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3); 
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
 }
 
 .product-container img {
     object-fit: cover;
+    width: 300px;
+    height: 270px;
+    
 }
 
 .product-container h3 {
     text-align: center;
-    background-color: #c6ae82;
+    /* background-color: #c6ae82; */
     padding: 10px;
     color: #FFFFFF;
+    margin: 0;
 }
 
 
