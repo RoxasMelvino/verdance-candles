@@ -1,0 +1,13 @@
+html, body, main {
+    margin: 0;
+    font-family: 'Playfair Display';
+}
+
+body {
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* section navigation */
+
