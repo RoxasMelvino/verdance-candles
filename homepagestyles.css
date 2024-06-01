@@ -3,10 +3,10 @@ body, html, main{
 }
 
 
-main {
+.main-container {
     width: 100vw;
     height: 100vh;
-    font-family: 'Playfair Display'
+    font-family: 'Playfair Display';
 }
 /* Section: welcome */
 ul {
@@ -43,13 +43,18 @@ ul {
 }
 
 .welcome {
-    height: 95%;
+    /* height: 95%; */
+    width: 100%;
+    min-width: 1000px;
+    height: 80%;
+    min-height: 50%;
     background-image: url("https://static.wixstatic.com/media/11062b_32544597562341a3ba3eb71ecd182c39~mv2.jpg/v1/fill/w_1060,h_480,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_32544597562341a3ba3eb71ecd182c39~mv2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
-.welcome img {
+.welcome .logo {
     margin: 5% 0 0 33%;
 }
 
@@ -121,6 +126,9 @@ ul {
     /* border: 2px solid blue; */
     border-radius: 10px;
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .product-container img {
@@ -132,10 +140,19 @@ ul {
 
 .product-container h3 {
     text-align: center;
-    /* background-color: #c6ae82; */
-    padding: 10px;
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 15px 0 15px 0;
     color: #FFFFFF;
     margin: 0;
+    font-size: 1.5em;
 }
 
-
+button[type="button"] {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #6A8D73;
+    color: #ffffff;
+    margin: 15px;
+}
