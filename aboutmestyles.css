@@ -63,6 +63,8 @@ body {
 .team h2, .team p {
     color: #ffffff;
 }
+
+
 @media screen and (max-width: 576px) {
     body {
         font-size: 1.3em; 
