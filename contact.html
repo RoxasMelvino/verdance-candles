@@ -26,7 +26,7 @@
 
         <section class="container contact">
             <h1>Contact Us!</h1>
-
+    
             <div class="contact-info">
                 <div class="info">
                     <h4>Address</h4>
@@ -38,18 +38,29 @@
                     <p>info@mysite.com</p>
                 </div>
                 <div class="info">
-                    <h4>Tel</h4>
+                    <h4>Telephone</h4>
                     <p>123-456-7890</p>
                 </div>
             </div>
 
+            <p>You can also contact us by using this form</p>
             <form action="#">
                 <fieldset>
-                    <label for="fname">First Name <input type="text" name="fname" id="fname"></label>
-                    <label for="lname">Last Name <input type="text" name="lname" id="lname"></label>
-                    <label for="email">Email <input type="email" name="email" id="email"></label>
-                    <label for="subject">Subject <input type="text" name="subject" id="subject"></label>
-                    <label for="message">Leave Us a Message <input type="text" name="message" id="message"></label>
+                    <div class="field username">
+                        <label for="fname">First Name<input type="text" name="fname" id="fname"></label>
+                        <label for="lname">Last Name<input type="text" name="lname" id="lname"></label>
+                    </div>
+                    
+                    <div class="field email-subject">
+                        <label for="email">Email <input type="email" name="email" id="email"></label>
+                        <label for="subject">Subject <input type="text" name="subject" id="subject"></label>
+                    </div>
+                    
+                    <div class="user-message">
+                        <label for="message">Leave Us a Message<input type="text" name="message" id="message"></label>
+                    </div>
+                    
+                    <button type="button">Submit</button>
                 </fieldset>
             </form>            
         </section>
@@ -60,8 +71,9 @@
                 <form action="#">
                     <fieldset>
                         <legend>Enter your Email Here</legend>
-                        <label for="user-email"><input type="text" name="user-email" id="user-email"></label>
-                        <button type="button">Submit</button>
+                        <label for="user-email"></label>
+                        <input type="text" name="user-email" id="user-email">
+                        <button type="button">Subscribe</button>
                     </fieldset>
                 </form>
             </div>
