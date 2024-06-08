@@ -151,7 +151,7 @@ section.contact {
     
 }
 
-.mailing-list form fieldset {
+.mailing-list fieldset {
     gap: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -171,9 +171,9 @@ section.contact {
     width: 170px;
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     body {
-        font-size: 13px
+        font-size: 13px;
     }
 
     .contact form {
@@ -189,6 +189,7 @@ section.contact {
     }
 }
 
+
 @media screen and (min-width: 769px) {
     .contact form {
         width: 80%;
@@ -197,5 +198,10 @@ section.contact {
 
     .mailing-list {
         max-width: 1200px;
+    }
+
+    .mailing-list fieldset {
+        text-align: center;
+        justify-content: center;
     }
 }
