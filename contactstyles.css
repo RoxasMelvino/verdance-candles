@@ -1,6 +1,7 @@
 body, html, main {
     margin: 0;
     font-family: 'Playfair Display';
+    color: #333333;
 }
 
 
@@ -11,6 +12,32 @@ body {
     line-height: 1.8;
 }
 
+form fieldset {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form fieldset input {
+    border: 1px solid #000000;
+    background: #ffffff;
+    padding: 10px;
+}
+
+h1 {
+    letter-spacing: 0.02em;
+    font-size: 4em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container {
+    border: 2px solid red;
+    padding: 25px;
+}
+
+
+/* navigation bar ----------- */
 .navigation ul{
     list-style-type: none;
     display: flex;
@@ -27,3 +54,41 @@ body {
 .navigation a:hover {
     border-top: 2px solid #000000;
 }
+
+/* contact us section --------------*/
+
+section.contact {
+    background-color: #c6ae82;
+}
+
+.contact-info {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%
+}
+
+h4, p {
+    font-size: 22px;
+}
+
+.contact form {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    width: 60%;
+}
+
+
+
+/* mailing list section ------- */
+
+.mailing-list {
+    background-color: #AE633F;
+    padding: 15px;
+    box-shadow: 5px 5px 0 rgba(219, 187, 59, 0.5);
+}
+
