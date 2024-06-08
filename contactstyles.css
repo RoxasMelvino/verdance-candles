@@ -64,7 +64,7 @@ h4, p {
 section.contact {
     background-color: #c6ae82;
     height: 1400px
-}
+} 
 
 .contact-info {
     /* border: 2px solid red; */
@@ -89,6 +89,7 @@ section.contact {
 .contact fieldset {
     /* border: 2px solid red; */
     height: 100%;
+    width: 100%;
 }
 .contact input {
     width: 250px;
@@ -114,6 +115,7 @@ section.contact {
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    padding: 10px;
 }
 
 .user-message {
@@ -140,6 +142,7 @@ section.contact {
     padding: 15px;
     box-shadow: 8px 8px 0 rgba(240, 162, 2, 0.5);
     width: 70%;
+    min-width: 320px;
     margin: 0 auto 0 auto;
 }
 
@@ -168,3 +171,20 @@ section.contact {
     width: 170px;
 }
 
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 13px
+    }
+
+    .contact form {
+        height: 650px;
+    }
+
+    .contact .field, .user-message {
+        flex-wrap: wrap;
+    }
+
+    .mailing-list input, .mailing-list button {
+        width: 100%;
+    }
+}
